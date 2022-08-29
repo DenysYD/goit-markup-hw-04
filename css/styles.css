@@ -518,7 +518,6 @@ address {
 .project-list {
     display: flex;
     flex-wrap: wrap;
-
 }
 
 .project-item {
