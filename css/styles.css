@@ -145,7 +145,7 @@ body {
 
 /* HERO */
 .hero {
-    min-width: 1600px;
+    max-width: 1600px;
     height: 600px;
     margin-left: auto;
     margin-right: auto;
@@ -374,7 +374,7 @@ body {
     fill: #ffffff;
 }
 
-/* CUSTOMERS */
+/*CUSTOMERS*/
 
 .customers-list {
     display: flex;
@@ -398,11 +398,18 @@ body {
     margin-right: 0;
 }
 
+.customers-list > .icon-customers {
+    display: flex;
+    align-self: center;
+    width: 170px;
+    height: 92px;
+    }
+
 .customers-list-item:hover,
 .customers-list-item:focus {
     border: 1px solid var(--accent-color);
     border-radius: 4px;
-}
+    }
 
 .icon-customers {
     fill: #AFB1B8;
@@ -412,7 +419,6 @@ body {
 .customers-link:focus .icon-customers {
     fill: var(--accent-color);
 }
-
 /* FOOTER */
 address {
     font-style: normal;
