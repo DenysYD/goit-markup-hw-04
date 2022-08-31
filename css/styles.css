@@ -405,14 +405,18 @@ body {
     height: 92px;
     }
 
-.customers-list-item:hover,
-.customers-list-item:focus {
-    border: 1px solid var(--accent-color);
+.icon-customers {
+    fill: #AFB1B8;
+}
+
+.customers-link {
+    border: 1px solid;
     border-radius: 4px;
     }
 
-.icon-customers {
-    fill: #AFB1B8;
+.customers-link:hover,
+.customers-link:focus {
+    border-color: var(--accent-color);
 }
 
 .customers-link:hover .icon-customers,
